@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Run NVIDIA NeMo model evaluations"
+    options:
+      nemo_eval_model_id:
+        description: Nemo Eval Model Id
+        type: str
+        required: true
+      nemo_eval_dataset_id:
+        description: Nemo Eval Dataset Id
+        type: str
+      nemo_eval_api_url:
+        description: Nemo Eval Api Url
+        type: str

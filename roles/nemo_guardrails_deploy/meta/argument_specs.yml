@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Deploy NVIDIA NeMo guardrails"
+    options:
+      nemo_guardrails_deploy_name:
+        description: Nemo Guardrails Deploy Name
+        type: str
+        required: true
+      nemo_guardrails_deploy_config:
+        description: Nemo Guardrails Deploy Config
+        type: str
+      nemo_guardrails_deploy_api_url:
+        description: Nemo Guardrails Deploy Api Url
+        type: str

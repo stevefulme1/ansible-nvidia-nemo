@@ -1,0 +1,15 @@
+---
+argument_specs:
+  main:
+    short_description: "Run NVIDIA NeMo training jobs"
+    options:
+      nemo_train_model_id:
+        description: Nemo Train Model Id
+        type: str
+        required: true
+      nemo_train_dataset_id:
+        description: Nemo Train Dataset Id
+        type: str
+      nemo_train_api_url:
+        description: Nemo Train Api Url
+        type: str

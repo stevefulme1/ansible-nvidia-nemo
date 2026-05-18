@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: nemo_eval_model_id is defined
+    quiet: true
+
+- name: Execute nemo_eval
+  ansible.builtin.debug:
+    msg: "Run NVIDIA NeMo model evaluations"

@@ -1,0 +1,23 @@
+    ---
+    namespace: stevefulme1
+    name: nvidia_nemo
+    version: 1.0.0
+    readme: README.md
+    authors:
+      - Steve Fulmer <sfulmer@redhat.com>
+    description: >-
+      Ansible Collection for NVIDIA NeMo (AI Training Framework). Provides modules for managing training jobs, fine-tuning, guardrails, evaluators, retrievers, and customizations.
+    license:
+      - GPL-3.0-or-later
+    tags:
+      - 
+infrastructure  - cloud  - tools  - monitoring
+    dependencies: {}
+    repository: https://github.com/stevefulme1/ansible-nvidia-nemo
+    documentation: https://github.com/stevefulme1/ansible-nvidia-nemo/blob/main/README.md
+    homepage: https://github.com/stevefulme1/ansible-nvidia-nemo
+    issues: https://github.com/stevefulme1/ansible-nvidia-nemo/issues
+    build_ignore:
+      - .git
+      - .github
+      - tests/output

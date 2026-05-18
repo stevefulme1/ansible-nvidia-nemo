@@ -1,0 +1,9 @@
+---
+- name: Validate
+  ansible.builtin.assert:
+    that: nemo_train_model_id is defined
+    quiet: true
+
+- name: Execute nemo_train
+  ansible.builtin.debug:
+    msg: "Run NVIDIA NeMo training jobs"

@@ -5,8 +5,7 @@ version: 0.0.1
 readme: README.md
 authors:
   - Steve Fulmer <sfulmer@redhat.com>
-description: "EXPERIMENTAL - proof of concept, not production ready. >-"
-  Ansible Collection for NVIDIA NeMo (AI Training Framework). Provides modules for managing training jobs, fine-tuning, guardrails, evaluators, retrievers, and customizations.
+description: "EXPERIMENTAL - proof of concept, not production ready. Ansible Collection for NVIDIA NeMo (AI Training Framework). Provides modules for managing training jobs, fine-tuning, guardrails, evaluators, retrievers, and customizations."
 license:
   - GPL-3.0-or-later
 tags:

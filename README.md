@@ -1,3 +1,7 @@
+> **EXPERIMENTAL** - This collection is a proof of concept and is not production ready.
+> Modules may use placeholder API endpoints and have not been validated against real infrastructure.
+> Do not use in production environments.
+
     # stevefulme1.nvidia_nemo
 
     Ansible Collection for NVIDIA NeMo (AI Training Framework). Provides modules for managing training jobs, fine-tuning, guardrails, evaluators, retrievers, and customizations.
